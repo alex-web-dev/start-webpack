@@ -1,0 +1,57 @@
+.body-lock {
+  overflow: hidden
+}
+
+.container {
+  max-width: $container-width;
+  margin: 0 auto;
+  padding: 0 $container-offset;
+}
+  
+.link {
+  color: $color-primary;
+}
+
+.input {
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 15px;
+  outline: none;
+  border: 1px solid transparent;
+  transition: border .3s;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    appearance: none;
+  }
+
+  &[type=number] {
+    appearance: textfield;
+  }
+
+  &:focus {
+    border-color: $color-primary;
+  }
+}
+
+.title1 {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.title2 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+.title3 {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.4;
+}
